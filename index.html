@@ -22,8 +22,13 @@
             <li><a href="#">My List</a></li>
         </ul>
         <div class="search">
-            <input type="text" placeholder="Search">
-            <i class="fa fa-search" aria-hidden="true"></i>
+       <!-- <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i> -->
+            <form id="searchForm" action="/search" method="GET">
+                <input type="text" id="searchInput" name="q" placeholder="Search...">
+                <button type="submit" id="searchButton">Search</button>
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </form>
         </div>
     </header> 
     <div class="banner">
