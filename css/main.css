@@ -227,7 +227,8 @@ header {
 
 .banner .carousel-box {
     position: relative;
-    min-width: 950px;
+    min-width: 850px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,6 +256,7 @@ header {
     transform: translateX(8px) translateY(-100px);
     object-fit: cover;
     object-position: center;
+    padding-top: 50px;
 }   
 
 .play {
